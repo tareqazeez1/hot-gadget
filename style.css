@@ -1,5 +1,6 @@
 .container{
-    padding-bottom: 20px 20px;
+    padding-bottom: 50px 50px;
+    
 }
 .navbar{
     border-radius: 15px;
@@ -20,10 +21,72 @@
     font-weight: 700;
     border: none;
     color:white;
-    background-color:lightseagreen;
+    background-color:black;
     border-radius: 12px;
     padding: 8px 15px;
 }
 .card{
-    box-shadow: lightslategray 10px 10px 20px;
+    
+    justify-content: center;
+}
+
+#taru2{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 23%;
+    background-position: left bottom;
+    
+}
+
+#taru{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+div{
+    padding-bottom: 15px;
+}
+.carousel-indicators li{
+    width: 12px;
+    height: 9px;
+    background-color: cacaca;
+    border-radius: 46%;
+    
+
+}
+.carousel-indicators .active{
+    opacity: 1;
+    width: 32px;
+    height: 9px;
+    background-image: linear-gradient(45deg, #fdc21f, #fcc87a);
+    border-radius: 44%;
+    transition: 8s;
+}
+.card-footer{
+    border: none;
+    background-color:white
+}
+
+.ruler{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.cat-line{
+    height: 4px;
+    width: 100px;
+    background-color: tomato;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding-top: 10px;
+}
+.hand-image{
+    width: 90%;
+    height: auto;
+}
+.cat-bag{
+    padding-top: 100px;
+    padding-left: 100px;
 }
